@@ -22,10 +22,10 @@ test('basic test', async ({ page }) => {
   expect(title).toBe('Example Domain');
 });
 
-4. Running the Test
+4. Running the Test:
    npx playwright test
 
-   or Running in Headed Mode
+   or Running in Headed Mode:
    npx playwright test --headed
 
 
