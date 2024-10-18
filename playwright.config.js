@@ -35,7 +35,9 @@ module.exports = defineConfig({
   projects: [
     {
       name: 'webkit',
-      use: { ...devices['Desktop Safari'] },
+      use: { ...devices['Desktop Safari'] ,
+        viewport:{width:1280, height:551}
+      },
     },
 
     /* Test against mobile viewports. */
