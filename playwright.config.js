@@ -34,9 +34,14 @@ module.exports = defineConfig({
   /* Configure projects for major browsers */
   projects: [
     {
-      name: 'webkit',
-      use: { ...devices['Desktop Safari'] ,
-        viewport:{width:1280, height:551}
+      name: 'chrome',
+      use: { 
+        ...devices['Desktop Chrome'] ,
+        channel: 'chrome',
+        viewport:{width:1280, height:551},
+        screenshot: "on",
+        video: "on",
+        trace: "on"
       },
     },
 
